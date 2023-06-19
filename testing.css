@@ -1,0 +1,54 @@
+#container {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.buttons {
+  position: absolute;
+  top: 380px;
+  text-align: center;
+  width: 100%;
+}
+.btn {
+  width: 50px;
+  height: 30px;
+}
+.step-wizard {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.step-wizard .progress {
+  position: absolute;
+  top: 10px;
+  left: 9%;
+  width: 79%;
+}
+.step-wizard .progressbar {
+  position: absolute;
+  background-color: #0aa89e;
+  opacity: 0.4;
+  height: 12px;
+  border: 1px solid e5e6e6;
+  width: 0%;
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+</s
+
+#rulesgridDiv table.hdr td {
+	text-align:left;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {right: -300px; opacity: 0} 
+    to {right: 10px; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {right: -300px; opacity: 0}
+    to {right: 10px; opacity: 1}
+}
