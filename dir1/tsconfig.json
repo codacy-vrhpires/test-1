@@ -24,7 +24,5 @@
     "strict": true,
     "outDir": "dist",
     "target": "es6"
-  },
-  "include": ["src", "src/theme/theme-extended-types.d.ts"],
-  "exclude": ["dist", "**/node_modules", "**/.*/"]
+  }
 }
